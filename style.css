@@ -1,0 +1,64 @@
+body{
+  background-image: url(background.jpg);
+  background-size: cover;
+}
+
+.conteiner{
+  background: rgba(60, 80, 90, 0.6);
+  width: 800px;
+  margin: auto;
+  padding:60px;
+  text-align: center;
+}
+
+header > img{
+  width: 150px;
+}
+
+.sottotitolo{
+  color: lime;
+  font-family: verdana;
+}
+
+nav{
+  background-color: lime;
+  padding:10px;
+}
+
+main{
+  text-align: left;
+  color: white;
+  font-family: sans-serif;
+}
+
+.name{
+  display:inline-block;
+}
+
+.address:before{
+  content: "\21A6"
+}
+
+.orangestrip{
+  width: 300px;
+  height: 20px;
+  border-style: solid;
+  border-color: orange;
+  background-color: orange;
+}
+
+.greenstrip{
+  width: 500px;
+  height: 20px;
+  border-style: solid;
+  border-color: green;
+  background-color: green;
+}
+
+.redstrip{
+  width: 200px;
+  height: 20px;
+  border-style: solid;
+  border-color: red;
+  background-color:red;
+}
